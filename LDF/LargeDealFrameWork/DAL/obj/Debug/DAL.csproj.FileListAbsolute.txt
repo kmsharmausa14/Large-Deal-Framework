@@ -1,0 +1,6 @@
+D:\LDF\LargeDealFrameWork\DAL\bin\Debug\DAL.dll.config
+D:\LDF\LargeDealFrameWork\DAL\bin\Debug\DAL.dll
+D:\LDF\LargeDealFrameWork\DAL\bin\Debug\DAL.pdb
+D:\LDF\LargeDealFrameWork\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\LDF\LargeDealFrameWork\DAL\obj\Debug\DAL.dll
+D:\LDF\LargeDealFrameWork\DAL\obj\Debug\DAL.pdb

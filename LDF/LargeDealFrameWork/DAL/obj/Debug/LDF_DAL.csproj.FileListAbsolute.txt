@@ -1,0 +1,12 @@
+D:\LDF\LargeDealFrameWork\DAL\bin\Debug\LDF_DAL.dll.config
+D:\LDF\LargeDealFrameWork\DAL\bin\Debug\LDF_DAL.dll
+D:\LDF\LargeDealFrameWork\DAL\bin\Debug\LDF_DAL.pdb
+D:\LDF\LargeDealFrameWork\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\LDF\LargeDealFrameWork\DAL\obj\Debug\LDF_DAL.dll
+D:\LDF\LargeDealFrameWork\DAL\obj\Debug\LDF_DAL.pdb
+C:\Users\Krrish\Source\Repos\Large-Deal-Framework\LDF\LargeDealFrameWork\DAL\bin\Debug\LDF_DAL.dll.config
+C:\Users\Krrish\Source\Repos\Large-Deal-Framework\LDF\LargeDealFrameWork\DAL\bin\Debug\LDF_DAL.dll
+C:\Users\Krrish\Source\Repos\Large-Deal-Framework\LDF\LargeDealFrameWork\DAL\bin\Debug\LDF_DAL.pdb
+C:\Users\Krrish\Source\Repos\Large-Deal-Framework\LDF\LargeDealFrameWork\DAL\obj\Debug\LDF_DAL.csprojResolveAssemblyReference.cache
+C:\Users\Krrish\Source\Repos\Large-Deal-Framework\LDF\LargeDealFrameWork\DAL\obj\Debug\LDF_DAL.dll
+C:\Users\Krrish\Source\Repos\Large-Deal-Framework\LDF\LargeDealFrameWork\DAL\obj\Debug\LDF_DAL.pdb

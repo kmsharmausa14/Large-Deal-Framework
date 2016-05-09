@@ -1,0 +1,11 @@
+D:\LDF\LargeDealFrameWork\EmailUtility\bin\Debug\EmailUtility.dll
+D:\LDF\LargeDealFrameWork\EmailUtility\bin\Debug\EmailUtility.pdb
+D:\LDF\LargeDealFrameWork\EmailUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\LDF\LargeDealFrameWork\EmailUtility\obj\Debug\EmailUtility.dll
+D:\LDF\LargeDealFrameWork\EmailUtility\obj\Debug\EmailUtility.pdb
+D:\LDF\LargeDealFrameWork\EmailUtility\bin\Debug\LDF_BLL.dll
+D:\LDF\LargeDealFrameWork\EmailUtility\bin\Debug\LDF_BO.dll
+D:\LDF\LargeDealFrameWork\EmailUtility\bin\Debug\LDF_DAL.dll
+D:\LDF\LargeDealFrameWork\EmailUtility\bin\Debug\LDF_BLL.pdb
+D:\LDF\LargeDealFrameWork\EmailUtility\bin\Debug\LDF_BO.pdb
+D:\LDF\LargeDealFrameWork\EmailUtility\bin\Debug\LDF_DAL.pdb

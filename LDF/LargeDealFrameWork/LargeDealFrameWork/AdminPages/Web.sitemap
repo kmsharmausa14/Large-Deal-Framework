@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+      <siteMapNode url="~/FrmAddNewUser.aspx" title="Create New User" description="Create New User" />
+      <siteMapNode url="~/FrmEditDeleteUser.aspx" title="Edit/Delete User" description="Edit/Delete User" />
+      <siteMapNode url="~/FrmOpportunityQualification.aspx" title="Opportunity Qualification Setting" description="Opportunity Qualification Setting" />
+      <siteMapNode url="~/FrmRGYCheckList.aspx" title="RGY CheckList Setting" description="RGY CheckList Setting" />
+      <siteMapNode url="~/FrmBidWinnability.aspx" title="Bid Winnability Setting" description="Bid Winnability Setting" />
+      <siteMapNode url="~/FrmAddNewRoles.aspx" title="Create Role/Vertical/Location/Designation" description="Create Role/Vertical/Location/Designation" />
+    </siteMapNode>
+</siteMap>

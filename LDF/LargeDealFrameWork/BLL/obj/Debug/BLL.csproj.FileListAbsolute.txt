@@ -1,0 +1,9 @@
+D:\LDF\LargeDealFrameWork\BLL\bin\Debug\BLL.dll
+D:\LDF\LargeDealFrameWork\BLL\bin\Debug\BLL.pdb
+D:\LDF\LargeDealFrameWork\BLL\bin\Debug\BO.dll
+D:\LDF\LargeDealFrameWork\BLL\bin\Debug\DAL.dll
+D:\LDF\LargeDealFrameWork\BLL\bin\Debug\BO.pdb
+D:\LDF\LargeDealFrameWork\BLL\bin\Debug\DAL.pdb
+D:\LDF\LargeDealFrameWork\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\LDF\LargeDealFrameWork\BLL\obj\Debug\BLL.dll
+D:\LDF\LargeDealFrameWork\BLL\obj\Debug\BLL.pdb

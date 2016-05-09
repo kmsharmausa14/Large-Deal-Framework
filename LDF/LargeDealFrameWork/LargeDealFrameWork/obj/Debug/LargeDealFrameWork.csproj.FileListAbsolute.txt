@@ -1,0 +1,13 @@
+D:\LDF\LargeDealFrameWork\LargeDealFrameWork\bin\LargeDealFrameWork.dll
+D:\LDF\LargeDealFrameWork\LargeDealFrameWork\bin\LargeDealFrameWork.pdb
+D:\LDF\LargeDealFrameWork\LargeDealFrameWork\bin\AjaxControlToolkit.dll
+D:\LDF\LargeDealFrameWork\LargeDealFrameWork\bin\AjaxMin.dll
+D:\LDF\LargeDealFrameWork\LargeDealFrameWork\obj\Debug\ResolveAssemblyReference.cache
+D:\LDF\LargeDealFrameWork\LargeDealFrameWork\obj\Debug\LargeDealFrameWork.dll
+D:\LDF\LargeDealFrameWork\LargeDealFrameWork\obj\Debug\LargeDealFrameWork.pdb
+D:\LDF\LargeDealFrameWork\LargeDealFrameWork\bin\LDF_BLL.dll
+D:\LDF\LargeDealFrameWork\LargeDealFrameWork\bin\LDF_BO.dll
+D:\LDF\LargeDealFrameWork\LargeDealFrameWork\bin\LDF_DAL.dll
+D:\LDF\LargeDealFrameWork\LargeDealFrameWork\bin\LDF_BLL.pdb
+D:\LDF\LargeDealFrameWork\LargeDealFrameWork\bin\LDF_BO.pdb
+D:\LDF\LargeDealFrameWork\LargeDealFrameWork\bin\LDF_DAL.pdb

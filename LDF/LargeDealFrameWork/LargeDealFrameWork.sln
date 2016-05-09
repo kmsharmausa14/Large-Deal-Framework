@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargeDealFrameWork", "LargeDealFrameWork\LargeDealFrameWork.csproj", "{E18483EF-4E7A-49DA-8168-D24C6EE27745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDF_BLL", "BLL\LDF_BLL.csproj", "{A529B71D-32CC-485F-9CCE-BF7888B3E947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDF_BO", "BO\LDF_BO.csproj", "{91BDADAB-4FA7-47ED-AC82-0640D5F9B76D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDF_DAL", "DAL\LDF_DAL.csproj", "{D363643A-BE6C-43F8-8CD6-F442D6EADA68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailUtility", "EmailUtility\EmailUtility.csproj", "{AAAD9AE8-8EA9-4E15-8DF3-73CBF4C8118F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://syntwdd0131-pc:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EmailUtility\\EmailUtility.csproj
+		SccProjectName1 = EmailUtility
+		SccLocalPath1 = EmailUtility
+		SccProjectUniqueName2 = LargeDealFrameWork\\LargeDealFrameWork.csproj
+		SccProjectName2 = LargeDealFrameWork
+		SccLocalPath2 = LargeDealFrameWork
+		SccProjectUniqueName3 = BLL\\LDF_BLL.csproj
+		SccProjectName3 = BLL
+		SccLocalPath3 = BLL
+		SccProjectUniqueName4 = BO\\LDF_BO.csproj
+		SccProjectName4 = BO
+		SccLocalPath4 = BO
+		SccProjectUniqueName5 = DAL\\LDF_DAL.csproj
+		SccProjectName5 = DAL
+		SccLocalPath5 = DAL
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E18483EF-4E7A-49DA-8168-D24C6EE27745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18483EF-4E7A-49DA-8168-D24C6EE27745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18483EF-4E7A-49DA-8168-D24C6EE27745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18483EF-4E7A-49DA-8168-D24C6EE27745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A529B71D-32CC-485F-9CCE-BF7888B3E947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A529B71D-32CC-485F-9CCE-BF7888B3E947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A529B71D-32CC-485F-9CCE-BF7888B3E947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A529B71D-32CC-485F-9CCE-BF7888B3E947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91BDADAB-4FA7-47ED-AC82-0640D5F9B76D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91BDADAB-4FA7-47ED-AC82-0640D5F9B76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91BDADAB-4FA7-47ED-AC82-0640D5F9B76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91BDADAB-4FA7-47ED-AC82-0640D5F9B76D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D363643A-BE6C-43F8-8CD6-F442D6EADA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D363643A-BE6C-43F8-8CD6-F442D6EADA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D363643A-BE6C-43F8-8CD6-F442D6EADA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D363643A-BE6C-43F8-8CD6-F442D6EADA68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAAD9AE8-8EA9-4E15-8DF3-73CBF4C8118F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAAD9AE8-8EA9-4E15-8DF3-73CBF4C8118F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAAD9AE8-8EA9-4E15-8DF3-73CBF4C8118F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAAD9AE8-8EA9-4E15-8DF3-73CBF4C8118F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

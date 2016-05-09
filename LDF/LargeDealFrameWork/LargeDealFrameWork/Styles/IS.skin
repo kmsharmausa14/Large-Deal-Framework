@@ -1,0 +1,315 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView SkinID="GridViewSkin"   runat="server"  BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="../Images/image1.jpg" />
+--%>
+
+<asp:TextBox SkinId="SkTxtAreaIJ"  runat="server" CssClass="textAreaIJ" />
+<asp:Hyperlink SkinId="SklnkSkinIJ" runat="server" CssClass="HyperLinkIJ"/>
+
+
+<asp:Label SkinId="SklblHeadGreen" runat="server" ForeColor="#01573c" Font-Bold="True" Font-Size="0.9em" Font-Names="Verdana, Arial, Helvetica, sans-serif" />
+<asp:Label SkinId="SklblLeft" runat="server" CssClass="LabelColLeft" />
+<asp:Label SkinId="SklblHomeHead" runat="server" CssClass="LabelHomeHead" />
+<asp:Label SkinId="SklblRight" runat="server" CssClass="LabelColRight" />
+<asp:Label SkinId="SklblNoteMaroon" runat="server" CssClass="notes" />
+<asp:Label SkinId="SklblitalicMaroon" Font-Italic="True" runat="server" ForeColor="#5E1E08" Font-Bold="False" Font-Size="0.9em" Font-Names="Verdana" />
+<asp:CheckBoxList runat="server" SkinId="SkChklst" CssClass="checkboxSkin" />
+
+<asp:RadioButtonList runat="server" SkinId="SklRdbLst"  CssClass="checkboxSkin"/>
+<asp:RadioButton runat="server" SkinId="SkRadioBtn"  ForeColor="#545454" Font-Bold="True" Font-Size="0.9em" Font-Names="Verdana" />
+
+<asp:DropDownList runat="server" SkinId="SkDrpLst" CssClass="dropDownSkin"    />
+<asp:Button runat="server" skinid="SkbtnSkin" runat="server" CssClass="SkbtnSkin" /> 
+<asp:TextBox SkinId="SkTxtAreaSkin"  runat="server" CssClass="textArea" />
+<asp:TextBox SkinId="SkTxtSkin"  runat="server" CssClass="textSkin" />
+<asp:TextBox SkinId="SkAutoCompSkin"  runat="server" CssClass="AutocompSkin" />
+<asp:TextBox SkinId="SkTxtArea"  runat="server" CssClass="textAreaSml" />
+
+
+<asp:LinkButton SkinId="SklnkSkin" runat="server" CssClass="HyperLink"/>
+<asp:Hyperlink SkinId="SklnkSkin" runat="server" CssClass="HyperLink"/>
+<asp:Label SkinId="SkBC" runat="server" CssClass="breadcrumb" />
+
+
+    <asp:GridView SkinID="skGridView" border=1 runat="server" BorderColor="Orange"  CellPadding="4"  GridLines="None">
+    <AlternatingRowStyle CssClass="skGridInnerAlternatingRow" ></AlternatingRowStyle>
+    <FooterStyle      CssClass="skGridInnerFooter" ></FooterStyle>
+    <EditRowStyle     CssClass="skGridInnerEditRow" ></EditRowStyle>
+    <HeaderStyle      CssClass="skGridInnerHeader" ></HeaderStyle>
+    <RowStyle         CssClass="skGridInnerRow" ></RowStyle>
+    <PagerStyle       CssClass="skGridInnerRow" ></PagerStyle>
+    <SelectedRowStyle  CssClass="skGridInnerSelectedRow"></SelectedRowStyle>
+     
+    </asp:GridView>
+    
+
+
+
+
+<asp:DataGrid SkinId="SKDataGrid" border=1 runat="server" BorderColor="Orange"  CellPadding="4"  GridLines="None">
+    <AlternatingItemStyle  CssClass="skGridInnerAlternatingRow" ></AlternatingItemStyle>
+     <EditItemStyle        CssClass="skGridInnerEditRow"></EditItemStyle>
+    <FooterStyle         CssClass="skGridInnerFooter"></FooterStyle>
+    <HeaderStyle            CssClass="skGridInnerHeader"></HeaderStyle>
+    <ItemStyle          CssClass="skGridInnerRow"  ></ItemStyle>
+    <PagerStyle          CssClass="skGridInnerRow"></PagerStyle>
+    <SelectedItemStyle   CssClass="skGridInnerSelectedRow"></SelectedItemStyle>
+</asp:DataGrid>
+
+<asp:ListBox runat="server" SkinID="skListBox" CssClass="checkboxSkin"></asp:ListBox>  
+    
+<asp:Label SkinId="lblHead" runat="server" CssClass="lblHeading" />
+<asp:TextBox SkinId="TxtAreaSkin"  runat="server" CssClass="textArea" />
+<asp:Label SkinId="lblHeadingQues" runat="server" CssClass="lblHeadingQues" />
+<asp:Label SkinId="lblField" runat="server" CssClass="labelSkin" />
+<asp:Label SkinId="lblNote" runat="server" CssClass="note" />
+<asp:Label SkinId="lblMaroon" runat="server" CssClass="MaroonText" />
+<asp:Label SkinId="lblHighLight" runat="server" CssClass="HighLightText" />
+<asp:Label SkinId="lblTitle" runat="server" CssClass="titleSkin" />
+
+<asp:TextBox SkinId="TxtSkin"  runat="server" CssClass="textSkin" />
+<asp:TextBox SkinId="TxtDateSkin"  runat="server" CssClass="textDateSkin" />
+<asp:TextBox SkinId="TxtReasonSkin"  runat="server" CssClass="JustificationtextArea" />
+<asp:TextBox SkinId="TxtDescSkin"  runat="server" CssClass="ReasontextArea" />
+
+<asp:TextBox SkinId="TxtBSCDdtSkin"  runat="server" CssClass="textBSCDateSkin" />
+<asp:GridView SkinID="BSCGridViewInnerSkin"   runat="server">
+    <AlternatingRowStyle CssClass="BSCGridInnerAlternatingRow" ></AlternatingRowStyle>
+    <FooterStyle      CssClass="BSCGridInnerFooter" ></FooterStyle>
+    <EditRowStyle     CssClass="BSCGridInnerEditRow" ></EditRowStyle>
+   <HeaderStyle      CssClass="BSCGridInnerHeader" ></HeaderStyle>
+    <RowStyle         CssClass="BSCGridInnerRow" ></RowStyle>
+    <PagerStyle       CssClass="BSCGridInnerRow" ></PagerStyle>
+    <SelectedRowStyle  CssClass="BSCGridInnerSelectedRow"></SelectedRowStyle>
+</asp:GridView>
+
+ <asp:DropDownList SkinId="drpJustskin"   runat="server"   CssClass="JustificationCmb" />
+
+
+<asp:Button SkinId="btnSkin" runat="server" CssClass="btnSkin" />
+
+<asp:LinkButton SkinId="lnkSkin" runat="server" Font-Size=".9em" Font-Names="Verdana"/>
+
+
+<asp:GridView SkinID="GridViewSkin333" border=1  width="100%"  runat="server"  GridLines="None">
+    <AlternatingRowStyle CssClass="GridAlternatingRow" ></AlternatingRowStyle>
+    <FooterStyle      CssClass="GridFooter" ></FooterStyle>
+    <EditRowStyle     CssClass="GridEditRow" ></EditRowStyle>
+    <HeaderStyle      CssClass="GridHeader" ></HeaderStyle>
+    <RowStyle         CssClass="GridRow" ></RowStyle>
+    <PagerStyle       CssClass="GridPager" ></PagerStyle>
+    <SelectedRowStyle  CssClass="GridSelectedRow"></SelectedRowStyle>
+</asp:GridView>
+
+
+<asp:GridView SkinID="GridViewSkin" border=1 runat="server" CellPadding="4" ForeColor="#333333"  GridLines="None">
+        <RowStyle BackColor="#efeab2" font-size="8" />
+        <FooterStyle BackColor="#c78e31" Font-Bold="True" ForeColor="White" font-size="6" />
+        <PagerStyle BackColor="#ED9121" ForeColor="White" HorizontalAlign="Center" font-size="8" />
+       
+        <HeaderStyle BackColor="#c78e31" Font-Bold="True" ForeColor="White" />
+      
+        <AlternatingRowStyle BackColor="White" font-size="8" />
+    </asp:GridView>
+    
+    
+    <asp:GridView SkinID="GridViewSkinSTEP" border=1 runat="server" CellPadding="4" ForeColor="#333333"  GridLines="None">
+        <RowStyle BackColor="#efeab2" Font-Names="Verdana" ForeColor="#073756" font-size="8"/>
+        <FooterStyle BackColor="#c78e31" Font-Bold="True" ForeColor="White"  />
+        <PagerStyle BackColor="#c78e31" ForeColor="White" HorizontalAlign="Center"  />
+       
+        <HeaderStyle BackColor="#c78e31" Font-Bold="True" ForeColor="White" />
+      
+        <AlternatingRowStyle BackColor="White" Font-Names="Verdana" ForeColor="#073756" font-size="8"/>
+    </asp:GridView>
+    
+    
+    <asp:GridView SkinID="GridViewInnerSkin" border=1 runat="server" CellPadding="4" ForeColor="#333333"  GridLines="None">
+        <RowStyle BackColor="#EFF3FB" font-size="8" />
+        <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" font-size="6" />
+        <PagerStyle BackColor="#507CD1" ForeColor="White" HorizontalAlign="Center" font-size="8" />
+       
+        <HeaderStyle BackColor="#01A3B2" Font-Bold="True" ForeColor="White" />
+      
+        <AlternatingRowStyle BackColor="White" font-size="8" />
+    </asp:GridView>
+
+
+
+<asp:GridView SkinID="GridViewInnerSkin1"   runat="server"  GridLines="None">
+    <AlternatingRowStyle CssClass="GridInnerAlternatingRow" ></AlternatingRowStyle>
+    <FooterStyle      CssClass="GridInnerFooter" ></FooterStyle>
+    <EditRowStyle     CssClass="GridInnerEditRow" ></EditRowStyle>
+    <HeaderStyle      CssClass="GridInnerHeader" ></HeaderStyle>
+    <RowStyle         CssClass="GridInnerRow" ></RowStyle>
+    <PagerStyle       CssClass="GridInnerRow" ></PagerStyle>
+    <SelectedRowStyle  CssClass="GridInnerSelectedRow"></SelectedRowStyle>
+</asp:GridView>
+
+
+<asp:Calendar runat="server" SkinId="CalSkin" BorderStyle="double" BorderColor="#E7E5DB" BorderWidth="2" BackColor="#F8F7F4" Font-Size=".9em" Font-Names="Verdana">
+    <TodayDayStyle      BackColor="#F8F7F4" BorderWidth="1" BorderColor="#585880" ForeColor="#585880" />
+    <OtherMonthDayStyle BackColor="transparent" ForeColor="#CCCCCC" />
+    <SelectedDayStyle   ForeColor="#6464FE" BackColor="transparent" cssclass="theme_highlighted" />
+    <TitleStyle         Font-Bold="True"  BackColor="#CCCCCC" ForeColor="#585880" BorderColor="#CCCCCC" BorderWidth="1pt" cssclass="theme_header" />
+    <NextPrevStyle      Font-Bold="True"  ForeColor="#585880" BorderColor="transparent"  BackColor="transparent" />
+    <DayStyle                             ForeColor="#000000"   BorderColor="transparent" BackColor="transparent" />
+    <SelectorStyle      Font-Bold="True"  ForeColor="#696969" BackColor="#F8F7F4" />
+    <WeekendDayStyle    Font-Bold="False" ForeColor="#000000"   BackColor="transparent" />
+    <DayHeaderStyle     Font-Bold="True"  ForeColor="#585880" BackColor="Transparent" />
+</asp:Calendar>
+
+
+
+
+<asp:DataList SkinId="TaAsDatalist"  runat="server" BackColor="#FFFFFF" BorderStyle="Double" BorderColor="#E7E5DB" BorderWidth="3pt" Font-Size=".9em" Font-Names="Verdana" CellPadding="5">
+    <AlternatingItemStyle         Font-Size=".9em" Font-Names="Verdana" BorderColor="#FFFFFF" BackColor="#F8F7F4"></AlternatingItemStyle>
+    <EditItemStyle                font-size=".9em" Font-Names="Verdana" BorderColor="#FFFFFF" cssclass="theme_highlighted"></EditItemStyle>
+    <FooterStyle Font-Bold="True" Font-Size=".9em" Font-Names="Verdana" BorderColor="#FFFFFF" ForeColor="#585880" cssclass="theme_header"></FooterStyle>
+    <HeaderStyle Font-Bold="True" Font-Size=".9em" Font-Names="Verdana" BorderColor="#FFFFFF" BorderWidth="1pt" ForeColor="#585880" cssclass="theme_header"></HeaderStyle>
+    <SelectedItemStyle            Font-Size=".9em" Font-Names="Verdana" BorderColor="#FFFFFF" cssclass="theme_highlighted"></SelectedItemStyle>
+    <ItemStyle                    Font-Size=".9em" Font-Names="Verdana" BorderColor="#FFFFFF" BackColor="#ffffff"/>
+    <SeparatorStyle               font-size=".9em" Font-Names="Verdana" BorderColor="#FFFFFF" BackColor="#ffffff"/>
+</asp:DataList>
+
+
+<asp:DetailsView runat="server"  SkinId="TaAsDataView" BorderStyle="Double" ForeColor="#585880" BorderColor="#E7E5DB" BorderWidth="2pt" Font-Size=".9em" Font-Names="Verdana" CellPadding="5" BackColor="#FFFFFF">
+    <PagerStyle          Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880"  BorderWidth="1pt" BorderColor="#585880" BorderStyle="Solid" BackColor="#F8F7F4"></PagerStyle>
+    <EditRowStyle        font-size=".9em" Font-Names="Verdana" ForeColor="#585880" BackColor="#F8F7F4"></EditRowStyle>
+    <RowStyle            Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880" BorderColor="#FFFFFF" BackColor="#FFFFFF"></RowStyle>
+    <CommandRowStyle     Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880" BorderWidth="1pt" BorderStyle="Ridge" BorderColor="#FFFFFF" cssclass="theme_header"></CommandRowStyle>
+    <InsertRowStyle      Font-Size=".9em" Font-Names="Verdana" BackColor="#F8F7F4" ForeColor="#585880"></InsertRowStyle>
+    <AlternatingRowStyle Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880" BackColor="#F8F7F4"></AlternatingRowStyle>
+</asp:DetailsView>
+
+
+<asp:DataList SkinId="SKDatalist"  runat="server" BackColor="Orange"  BorderWidth="3pt" Font-Size=".9em" Font-Names="Verdana" CellPadding="4">
+    <AlternatingItemStyle  CssClass="skGridInnerAlternatingRow"></AlternatingItemStyle>
+    <EditItemStyle font-size=".9em" Font-Names="Verdana" BorderColor="#FFFFFF" cssclass="theme_highlighted"></EditItemStyle>
+    <FooterStyle CssClass="skGridInnerFooter"></FooterStyle>
+    <HeaderStyle CssClass="skGridInnerHeader"></HeaderStyle>
+    <SelectedItemStyle CssClass="skGridInnerSelectedRow"></SelectedItemStyle>
+    <ItemStyle CssClass="skGridInnerRow"/>
+    <SeparatorStyle font-size=".9em" Font-Names="Verdana" BorderColor="#FFFFFF" BackColor="#ffffff"/>
+</asp:DataList>
+
+
+
+<asp:TreeView runat="server" BorderColor="#FFFFFF" BackColor="#FFFFFF" ForeColor="#585880" Font-Size=".9em" Font-Names="Verdana" LeafNodeImageURL="images\smokeandglass_iconlevel.gif" RootNodeImageURL="images\smokeandglass_iconmain.gif" ParentNodeImageURL="images\smokeandglass_iconmain.gif" NodeIndent="30" CollapseImageURL="images\smokeandglass_minus.gif" ExpandImageURL="images\smokeandglass_plus.gif">
+    <NodeStyle BorderColor="#FFFFFF" BackColor="#FFFFFF" Font-Size=".9em" Font-Names="Verdana" horizontalpadding="5" ForeColor="#585880" verticalpadding="1"></NodeStyle>
+    <RootNodeStyle Font-Size=".9em" Font-Names="Verdana" BorderColor="#FFFFFF" BackColor="#FFFFFF" Font-Bold="True"></RootNodeStyle>
+    <HoverNodeStyle Font-Size=".9em" Font-Names="Verdana" BorderColor="#FFFFFF" BackColor="#FFFFFF" font-underline="True" ForeColor="#4F4FCB"></HoverNodeStyle>
+    <SelectedNodeStyle BorderColor="transparent" BackColor="transparent" ForeColor="#585880" ></SelectedNodeStyle>
+   <LevelStyles>
+         <asp:TreeNodeStyle  BorderColor="#FFFFFF" Font-Size=".9em" Font-Names="Verdana" Font-Bold="True" BackColor="#FFFFFF" ForeColor="#000066"></asp:TreeNodeStyle>
+         <asp:TreeNodeStyle  BorderColor="#FFFFFF" Font-Size=".9em" Font-Names="Verdana" Font-Bold="True" BackColor="#FFFFFF" ForeColor="#000066"></asp:TreeNodeStyle>
+         <asp:TreeNodeStyle  BorderColor="#FFFFFF" Font-Size=".9em" Font-Names="Verdana" Font-Bold="True" BackColor="#FFFFFF" ForeColor="#000066"></asp:TreeNodeStyle>
+         <asp:TreeNodeStyle  BorderColor="#FFFFFF" Font-Size=".9em" Font-Names="Verdana" Font-Bold="True" BackColor="#FFFFFF" ForeColor="#000066"></asp:TreeNodeStyle>
+         <asp:TreeNodeStyle  BorderColor="#FFFFFF" Font-Size=".9em" Font-Names="Verdana" Font-Bold="True" BackColor="#FFFFFF" ForeColor="#000066"></asp:TreeNodeStyle>
+         <asp:TreeNodeStyle  BorderColor="#FFFFFF" Font-Size=".9em" Font-Names="Verdana" Font-Bold="True" BackColor="#FFFFFF" ForeColor="#000066"></asp:TreeNodeStyle>
+         <asp:TreeNodeStyle  BorderColor="#FFFFFF" Font-Size=".9em" Font-Names="Verdana" Font-Bold="True" BackColor="#FFFFFF" ForeColor="#000066"></asp:TreeNodeStyle>
+         <asp:TreeNodeStyle  BorderColor="#FFFFFF" Font-Size=".9em" Font-Names="Verdana" Font-Bold="True" BackColor="#FFFFFF" ForeColor="#000066"></asp:TreeNodeStyle>
+         <asp:TreeNodeStyle  BorderColor="#FFFFFF" font-size=".9em" Font-Names="Verdana" Font-Bold="True" BackColor="#FFFFFF" ForeColor="#000066"></asp:TreeNodeStyle>
+         <asp:TreeNodeStyle  BorderColor="#FFFFFF" Font-Size=".9em" Font-Names="Verdana" Font-Bold="True" BackColor="#FFFFFF" ForeColor="#000066"></asp:TreeNodeStyle>
+    </LevelStyles>
+</asp:TreeView>
+
+
+<asp:CheckBoxList runat="server"    CssClass="checkboxSkin" />
+
+
+
+<asp:RadioButtonList CssClass="radioSkin" runat="server"   />
+
+
+ <asp:DropDownList SkinId="DropDownSkin"   runat="server"   CssClass="dropDownSkin" />
+
+
+<asp:ListBox SkinId="ListBoxSkin"  runat="server"  CssClass="listBoxSkin"  />
+
+
+<asp:Login SkinId="Login" runat="server" BorderStyle="Double" BorderColor="#E7E5DB" BorderWidth="2pt" BackColor="#F8F7F4" Font-Size=".9em" Font-Names="Verdana">
+    <HyperLinkStyle        Font-Size=".9em" Font-Names="Verdana" font-underline="true" ForeColor="#585880" BackColor="transparent"></HyperLinkStyle>
+    <CheckBoxStyle         ForeColor="#000000" BorderColor="transparent" BackColor="transparent"></CheckBoxStyle>
+    <InstructionTextStyle  Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880" font-italic="True" BackColor="transparent"></InstructionTextStyle>
+    <FailureTextStyle      Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880"  BackColor="transparent" Font-Bold="True"></FailureTextStyle>
+    <TextBoxStyle          Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880" BorderWidth="1pt" BorderColor="transparent" BackColor="#FFFFFF"></TextBoxStyle>
+    <TitleTextStyle        Font-Size=".9em" Font-Names="Verdana" Font-Bold="True" ForeColor="#585880" BorderColor="#CCCCCC" BorderWidth="1pt" cssclass="theme_header"></TitleTextStyle>
+    <LabelStyle            ForeColor="#000000" BackColor="transparent" Font-Size=".9em" Font-Names="Verdana"></LabelStyle>
+</asp:Login>
+
+
+<asp:LoginName   runat="server" ForeColor="#585880" Font-Size=".9em" Font-Names="Verdana" Font-Bold="True" />
+
+
+<asp:LoginStatus runat="server" ForeColor="#585880" Font-Size=".9em" Font-Names="Verdana" Font-Bold="True" />
+
+
+<asp:PasswordRecovery runat="server" BorderStyle="Double" BorderColor="#E7E5DB" BorderWidth="2pt" BackColor="#F8F7F4" Font-Size=".9em" Font-Names="Verdana">
+    <SubmitButtonStyle     Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880" BorderColor="#585880" BorderWidth="1pt" BackColor="#E7E5DB"></SubmitButtonStyle>
+    <HyperLinkStyle        Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880" BackColor="transparent"></HyperLinkStyle>
+    <FailureTextStyle      Font-Bold="True" ForeColor="#585880" BackColor="#F8F7F4" Font-Size=".9em" Font-Names="Verdana"></FailureTextStyle>
+    <SuccessTextStyle      ForeColor="#585880" BackColor="#F8F7F4" Font-Size=".9em" Font-Names="Verdana"></SuccessTextStyle>
+    <TitleTextStyle        ForeColor="#585880" Font-Bold="True" BorderColor="#CCCCCC" BorderWidth="1pt" cssclass="theme_header" Font-Size=".9em" Font-Names="Verdana"></TitleTextStyle>
+    <InstructionTextStyle  ForeColor="#585880" BackColor="transparent" font-italic="True" Font-Size=".9em" Font-Names="Verdana"></InstructionTextStyle>
+    <TextBoxStyle          ForeColor="#585880" BackColor="#FFFFFF"  BorderWidth="1" BorderColor="transparent"></TextBoxStyle>
+    <LabelStyle            ForeColor="#000000" BackColor="transparent" Font-Size=".9em" Font-Names="Verdana"></LabelStyle>
+</asp:PasswordRecovery>
+
+
+<asp:DataGrid SkinId="DataGridSkin" runat="server"  ForeColor="#585880" CellPadding="5" GridLines="None" BorderWidth="2pt" BorderStyle="Double" BorderColor="#E7E5DB" Font-Size=".9em" Font-Names="Verdana">
+    <AlternatingItemStyle    HorizontalAlign="left" BackColor="White" font-size="8"></AlternatingItemStyle>
+     <EditItemStyle            ForeColor="#585880" cssclass="theme_highlighted"></EditItemStyle>
+    <FooterStyle              BackColor="#c78e31" Font-Bold="True" ForeColor="White" font-size="6"></FooterStyle>
+    <HeaderStyle             BackColor="#c78e31" Font-Bold="True" ForeColor="White"></HeaderStyle>
+    <ItemStyle          HorizontalAlign="left"      BackColor="#efeab2" font-size="8" ></ItemStyle>
+    <PagerStyle               BackColor="#c78e31" ForeColor="White" HorizontalAlign="right" font-size="8"></PagerStyle>
+    <SelectedItemStyle        ForeColor="#585880" BackColor="#FFFFFF" cssclass="theme_highlighted"></SelectedItemStyle>
+</asp:DataGrid>
+
+
+
+<asp:RangeValidator runat="server" ErrorMessage="RangeValidator" Font-Size=".7em" Font-Names="Verdana"></asp:RangeValidator>
+
+<asp:RequiredFieldValidator runat="server" Font-Size="1.0em" Font-Names="Verdana"></asp:RequiredFieldValidator>
+
+<asp:RegularExpressionValidator runat="server" Font-Size=".7em" Font-Names="Verdana"></asp:RegularExpressionValidator>
+
+
+<asp:CompareValidator runat="server" Font-Size=".7em" Font-Names="Verdana"></asp:CompareValidator>
+
+
+<asp:CustomValidator runat="server" Font-Size=".7em" Font-Names="Verdana"></asp:CustomValidator>
+
+
+<asp:ValidationSummary runat="server" Font-Names="Verdana" Font-Size=".7em" />
+
+
+
+
+<asp:Wizard runat="server" BorderStyle="Double" BorderColor="#585880" Font-Size=".9em" Font-Names="Verdana" Font-Weight="Bold" ForeColor="#585880" BackColor="#F8F7F4">
+    <HeaderStyle           ForeColor="#585880" Font-Size=".9em" BackColor="#F8F7F4" Font-Bold="true" BorderColor="#CCCCCC" BorderWidth="1" cssclass="theme_header"></HeaderStyle>
+    <SidebarStyle          ForeColor="#585880" Font-Size=".9em" cssclass="theme_fadeblue"/>
+    <SideBarButtonStyle    ForeColor="#000066" Font-Size=".9em" BackColor="transparent" BorderColor="#000066"  />
+    <StepStyle             ForeColor="#585880" Font-Size=".9em" BackColor="#FFFFFF" BorderColor="#585880" BorderWidth="1pt" />
+    <NavigationStyle       ForeColor="#585880" Font-Size=".9em" BackColor="#F8F7F4" BorderColor="#585880" />
+    <NavigationButtonStyle ForeColor="#585880" Font-Size=".9em" BackColor="#F8F7F4" BorderColor="#585880" />
+</asp:Wizard>
+
+<asp:CheckBox runat="server" BorderColor="transparent" BackColor="transparent" ForeColor="#585880" Font-Size="0.9em" Font-Names="Verdana" SkinId="checkboxSkin"/>
+
+<asp:RadioButton runat="server" BorderColor="transparent" BackColor="transparent" ForeColor="#585880" Font-Size="0.9em" Font-Names="Verdana" SkinId="radioSkin"/>
+
+
+

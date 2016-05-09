@@ -1,0 +1,10 @@
+D:\LDF\LargeDealFrameWork\BO\bin\Debug\LDF_BO.dll
+D:\LDF\LargeDealFrameWork\BO\bin\Debug\LDF_BO.pdb
+D:\LDF\LargeDealFrameWork\BO\obj\Debug\ResolveAssemblyReference.cache
+D:\LDF\LargeDealFrameWork\BO\obj\Debug\LDF_BO.dll
+D:\LDF\LargeDealFrameWork\BO\obj\Debug\LDF_BO.pdb
+C:\Users\Krrish\Source\Repos\Large-Deal-Framework\LDF\LargeDealFrameWork\BO\bin\Debug\LDF_BO.dll
+C:\Users\Krrish\Source\Repos\Large-Deal-Framework\LDF\LargeDealFrameWork\BO\bin\Debug\LDF_BO.pdb
+C:\Users\Krrish\Source\Repos\Large-Deal-Framework\LDF\LargeDealFrameWork\BO\obj\Debug\LDF_BO.csprojResolveAssemblyReference.cache
+C:\Users\Krrish\Source\Repos\Large-Deal-Framework\LDF\LargeDealFrameWork\BO\obj\Debug\LDF_BO.dll
+C:\Users\Krrish\Source\Repos\Large-Deal-Framework\LDF\LargeDealFrameWork\BO\obj\Debug\LDF_BO.pdb
